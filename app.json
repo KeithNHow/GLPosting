@@ -1,0 +1,29 @@
+{
+  "id": "d8df9362-2440-4e53-8f6b-c80be2b9d96e",
+  "name": "GLPosting",
+  "publisher": "Keith How",
+  "version": "1.0.0.0",
+  "brief": "High Performance Posting",
+  "description": "High Performance Posting",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50800,
+      "to": 50899
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0"
+}
