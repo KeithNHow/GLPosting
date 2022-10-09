@@ -3,11 +3,6 @@
 /// </summary>
 pageextension 50800 "KNH Customer" extends "Customer List"
 {
-    layout
-    {
-        // Add changes to page layout here
-    }
-
     actions
     {
         addfirst(processing)
@@ -61,5 +56,4 @@ pageextension 50800 "KNH Customer" extends "Customer List"
         GenJnlLine."Amount" := Amount;
         GLPost.RunWithoutCheck(GenJnlLine);
     end;
-
 }
