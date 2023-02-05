@@ -28,5 +28,6 @@
     "workbench.colorCustomizations": {
     "editorError.foreground": "#be0101", 
     "editorWarning.foreground": "#dceb06"
-    }
+    },
+    "al-test-runner.sendDebugTelemetry": false
 }
