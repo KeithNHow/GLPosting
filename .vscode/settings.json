@@ -1,0 +1,44 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+    "[al]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggestSelection": "first",
+        "editor.formatOnSave": true
+    },
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    "al.backgroundCodeAnalysis": false,
+    "al.enableCodeActions": false,
+    "al.incrementalBuild": true,
+    "al.compilationOptions": 
+    {
+        "generateReportLayout": true
+    },
+    "editor.codeLens": false,
+    "alOutline.codeCleanupActions": [
+        "AddToolTips",
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "SortVariables",
+        "AddApplicationAreas",
+        "SortTableFields",
+        "AddMissingParentheses",
+        "RemoveBeginEnd",
+        "RemoveUnusedVariables"
+    ],
+    "CRS.DisableDefaultAlSnippets": false,
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.FileNamePattern": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "workbench.colorCustomizations": { 
+        "editorError.foreground": "#FF0000",
+        "editorWarning.foreground": "#FFA500",
+        "editorInfo.foreground": "#0000FF"
+    },
+    "al-test-runner.sendDebugTelemetry": false
+}
